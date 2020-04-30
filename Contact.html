@@ -3,31 +3,48 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <Title></Title>
-        <link rel="stylesheet" href="/AboutPageStylesheet.css">
+        <link rel="stylesheet" href="/ContactPageStylesheet.css">
         <link rel="FontStyle" href="./ocr-a/OCR-A Regular.ttf">
     </head>
     <body>
         <div id="TitleNavBar">
             <h1>
-                Motivation
+                Contact
             </h1>
             <nav>
                 <ul>
                     <li><a href="/About.html">About Me</a></li>
-                    <li><a href="/Contact.html">Motivations</a></li>
+                    <li><a href="/Motivations.html">Motivations</a></li>
                     <li><a href="/Contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <main>
-            <div>
-                <img>
-                <p></p>
-            </div>
-            <div>
-                <img>
-                <p></p>
-            </div>
+            <form>
+                Name: <input type="text" name="Name" placeholder="Please Write your first and last name">
+                Email:<input type="text" name="email" placeholder="Please write your email...">
+                Number:<input type="number" name="Phonenumber" placeholder="Please put int your Phone number">
+                <Textarea name="Message" placeholder="Please write your reason for trying to Contact me"></Textarea>
+                <P>Preffered contact methood</P>
+                Phone: <input type="radio" name="Phone" value="Phone">
+                Email: <input type="radio" name="email" value="Email">
+                <p>Location of province in canada</p>
+                <select name="Provinces">
+                    <option value="None">None</option>
+                    <option vlaue="Province1">Alberta</option>
+                    <option vlaue="Province2">Britsh Columbia</option>
+                    <option vlaue="Province3">Manitoba</option>
+                    <option vlaue="Province4">New Brunswick</option>
+                    <option vlaue="Province5">NewFoundland and Labrador</option>
+                    <option vlaue="Province6">Nova Scotia</option>
+                    <option vlaue="Province7">Ontairo</option>
+                    <option vlaue="Province8">Prince Edwad Island</option>
+                    <option vlaue="Province9">Quebec</option>
+                    <option vlaue="Province10">Saskatchewan</option>
+                </select>
+                <Button type="submit" name="submit">Submit</Button>
+            </form>
         </main>
     </body>
+    <footer>This website was made by Kevin Rumboldt. A student from john abbott college Computer Science program</footer>
 </html>
